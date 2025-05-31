@@ -47,13 +47,3 @@ Thank you
 - And Many more
 
 ---
-
-## 📁 Repository Structure
-
-```bash
-HealthDataLab/
-│
-├── 📘 UAE_Cancer_Analysis_Notebook.ipynb   # Main analysis notebook
-├── 📊 outputs/                              # Exported plots, charts, visuals
-├── 📄 README.md                             # Project documentation
-└── 📁 data/                                 # Raw or cleaned data (if applicable)
