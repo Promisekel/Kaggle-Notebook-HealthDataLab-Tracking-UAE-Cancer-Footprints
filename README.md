@@ -44,6 +44,7 @@ Thank you
 - **Jupyter Notebook / Kaggle Notebook**
 - **Scikit-learn** (for basic ML modeling)
 - **GitHub** for version control and collaboration
+- And Many more
 
 ---
 

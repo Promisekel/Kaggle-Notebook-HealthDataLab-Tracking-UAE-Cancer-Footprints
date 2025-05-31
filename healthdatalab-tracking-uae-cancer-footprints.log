@@ -1,0 +1,79 @@
+[{"stream_name":"stderr","time":8.992627649,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.992712968,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.99272074,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.99272541,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.996710219,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.996751919,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.996759164,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.996763645,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.319537957,"data":"/kaggle/input/uae-cancer-patient-dataset/_cancer_dataset_uae.csv\n"}
+,{"stream_name":"stdout","time":17.726971713,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":17.727021642,"data":"RangeIndex: 10000 entries, 0 to 9999\n"}
+,{"stream_name":"stdout","time":17.72702849,"data":"Data columns (total 20 columns):\n"}
+,{"stream_name":"stdout","time":17.727032453,"data":" #   Column                Non-Null Count  Dtype \n"}
+,{"stream_name":"stdout","time":17.727036159,"data":"---  ------                --------------  ----- \n"}
+,{"stream_name":"stdout","time":17.727040112,"data":" 0   Patient_ID            10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727044453,"data":" 1   Age                   10000 non-null  int64 \n"}
+,{"stream_name":"stdout","time":17.727048244,"data":" 2   Gender                10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727052604,"data":" 3   Nationality           10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727056843,"data":" 4   Emirate               10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727060589,"data":" 5   Diagnosis_Date        10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727064988,"data":" 6   Cancer_Type           10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727068867,"data":" 7   Cancer_Stage          10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727073076,"data":" 8   Treatment_Type        10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727077,"data":" 9   Treatment_Start_Date  10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727089605,"data":" 10  Hospital              10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727093339,"data":" 11  Primary_Physician     10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727097737,"data":" 12  Outcome               10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.727101544,"data":" 13  Death_Date            992 non-null    object\n"}
+,{"stream_name":"stdout","time":17.727105593,"data":" 14  Cause_of_Death        992 non-null    object\n"}
+,{"stream_name":"stdout","time":17.727109987,"data":" 15  Smoking_Status        10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.72711384,"data":" 16  Comorbidities         5953 non-null   object\n"}
+,{"stream_name":"stdout","time":17.727118003,"data":" 17  Ethnicity             10000 non-null  object\n"}
+,{"stream_name":"stdout","time":17.72712201,"data":" 18  Weight                10000 non-null  int64 \n"}
+,{"stream_name":"stdout","time":17.727153109,"data":" 19  Height                10000 non-null  int64 \n"}
+,{"stream_name":"stdout","time":17.727159517,"data":"dtypes: int64(3), object(17)\n"}
+,{"stream_name":"stdout","time":17.727163857,"data":"memory usage: 1.5+ MB\n"}
+,{"stream_name":"stdout","time":17.757688506,"data":"shape (10000, 20)\n"}
+,{"stream_name":"stdout","time":22.266882227,"data":"Invalid gender-cancer type combinations found:\n"}
+,{"stream_name":"stdout","time":22.26692838,"data":"      Patient_ID  Gender Cancer_Type\n"}
+,{"stream_name":"stdout","time":22.266934617,"data":"6     PAT000007    Male     Ovarian\n"}
+,{"stream_name":"stdout","time":22.266937881,"data":"24    PAT000025    Male     Ovarian\n"}
+,{"stream_name":"stdout","time":22.266941211,"data":"32    PAT000033  Female    Prostate\n"}
+,{"stream_name":"stdout","time":22.266945065,"data":"53    PAT000054  Female    Prostate\n"}
+,{"stream_name":"stdout","time":22.26694905,"data":"56    PAT000057  Female    Prostate\n"}
+,{"stream_name":"stdout","time":22.266953211,"data":"...         ...     ...         ...\n"}
+,{"stream_name":"stdout","time":22.266957219,"data":"9966  PAT009967  Female    Prostate\n"}
+,{"stream_name":"stdout","time":22.266960989,"data":"9969  PAT009970  Female    Prostate\n"}
+,{"stream_name":"stdout","time":22.26696481,"data":"9983  PAT009984    Male     Ovarian\n"}
+,{"stream_name":"stdout","time":22.266968753,"data":"9995  PAT009996    Male     Ovarian\n"}
+,{"stream_name":"stdout","time":22.26697256,"data":"9996  PAT009997    Male     Ovarian\n"}
+,{"stream_name":"stdout","time":22.266976943,"data":"\n"}
+,{"stream_name":"stdout","time":22.266980917,"data":"[1230 rows x 3 columns]\n"}
+,{"stream_name":"stderr","time":30.566616229,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":30.566752908,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":30.619032155,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":31.06865185,"data":"[NbConvertApp] Writing 929688 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":32.844776982,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":32.84483504,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":32.879028669,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":34.058226741,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":34.058264745,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.058511667,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.058779675,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.059012407,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.059199064,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.059529999,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.059639213,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.059803972,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.0600053,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.060225224,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.060441144,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.06058367,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.060772038,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.060988006,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.061202937,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.061489506,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.061648144,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.062067246,"data":"[NbConvertApp] Writing 403678 bytes to __results__.html\n"}
+]
