@@ -1,6 +1,7 @@
 # 🔬📈 HealthDataLab: Tracking UAE Cancer Footprints 
 
 Welcome to **HealthDataLab**, a Kaggle-powered notebook analyzing synthetic cancer patient data from the United Arab Emirates (UAE). This project dives into cancer prevalence, treatment patterns, and patient outcomes using a robust dataset curated for healthcare analytics and machine learning applications.
+Thank you
 
 ---
 
